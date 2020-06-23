@@ -1,0 +1,230 @@
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: "Helvetica";
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+
+  .container {
+   max-width: 1170px;
+   width: 100%;
+   padding: 0 15px;
+   margin: 0 auto;
+ }
+
+ header {
+  height: 65px;
+  width: 100%;
+  background-color:#2c3e50;
+  position :fixed;
+  top:0;
+  z-index:10;
+
+}
+
+.logo {
+  width: 100px;
+  margin-top: 0px;
+  height: 65px;
+}
+
+.header-left {
+ float: left;
+}
+
+.header-right {
+  float: right;
+  background-color:none; 
+  margin-right: -20px;
+}
+
+
+.header-right a {
+ line-height: 65px;
+ padding: 0 25px;
+ color: white;
+ display: block;
+ float: left;
+ transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  display: none;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 65px;
+}
+
+.top-wrapper {
+  padding: 150px 0 150px 0;
+  background-image: url("https://www.apn.report/wp-content/uploads/2018/05/Social-Media-intelligence-final.jpg");
+  background-size: cover;
+  color :white;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  color:#00ffff;
+  font-weight:bold;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.tekan {
+  background-color: #239b76;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+.lesson-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  
+  padding-bottom: 80px;
+  background-color:#dfe6e9;
+}
+
+
+.heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #1e272e;
+}
+
+.heading h3 {
+  font-weight: normal;
+
+}
+
+
+.profile-wrapper {
+ padding-bottom: 80px;
+ padding-left: 5%;
+ padding-right: 5%;
+ background-color: #f7f7f7;
+ text-align: center;
+ 
+}
+
+.heading {
+ padding-top: 50px;
+ padding-bottom: 20px;
+}
+
+.heading h2 {
+ font-weight: bold;
+ color:#1e272e;
+}
+
+.heading h3 {
+ font-weight: bold;
+ color:#1e272e;
+} 
+
+.profiles{
+ background-color: #f5f6fa;
+}
+.profile {
+ float: left;
+ width: 25%;
+ background-color: #f5f6fa;
+
+}
+
+.profile-photo {
+  position: relative;
+}
+
+.profile-photo p{
+  font-weight: bold;
+}
+
+.profile p {
+  width: 80%;
+  display: inline-block;
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+footer{
+  height: 120px;
+  width: 100%;
+  background-color: #2c3e50;
+}
+
+footer p{
+  text-align: right;
+  color:white;
+  font-size:16px;
+}
+
+marquee{
+  padding-top: 30px;
+  margin-bottom:10px;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+}
