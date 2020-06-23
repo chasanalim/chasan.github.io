@@ -1,0 +1,62 @@
+@media all and (max-width: 1000px) {
+  .profile {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 30px;
+    padding-left:20px;
+  }
+
+  .top-wrapper h3 {
+  padding-left:20px;
+  }
+
+  .btn-wrapper {
+  padding-left:20px;
+  }
+
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+}
+
+@media all and (max-width: 670px) {
+  .profile {
+    width: 100%;
+  }
+  
+  footer p{
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .header-right{
+    display: none;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .top-wrapper a{
+    text-align:center;
+  }
+   
+}
